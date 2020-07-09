@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<head>
+		<title>Library</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<span>List of Books:</span>
+			<table id="bookList">
+			</table>
+			<hr>
+			<button type="submit" class="btn" id="add">Add Book</button>
+
+				<form id="addBook">
+					<label>Book's Name:</label>
+					<input type="text" id="bookName" placeholder="Book's Name">
+					<label>Book's Author:</label>
+					<input type="text" id="bookAuthor" placeholder="Book's Author">
+					<label>Book's Pages:</label>
+					<input type="text" id="bookPages" placeholder="Number of Pages">
+					<label>Read or Not yet:</label>
+					<input type="text" id="readOrNot" placeholder="Readed or not?">
+					<!-- until I find a way later for the checkbox -->
+					<!-- <label
+					for="check">Read or Not Read?</label>
+					<input type="checkbox" name="check" id="checkBox"> -->
+					<button type="submit" class="btn">Submit</button>
+				</form>
+
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
